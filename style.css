@@ -1,0 +1,54 @@
+body{
+
+background-image: url(BCP-5MRF-Overview\ \(2\).png);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+
+}
+.box{
+    
+   position: absolute;
+   top: 50%;
+   left: 50%;
+    background-color: white;
+    height: 800px;
+    width: 700px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.duration img{
+    transform: translate(-50%, -50%);
+position: absolute;
+top: 10%;
+left: 50%;
+   width: 75%;
+   height: auto;
+   
+    
+}
+/*
+.form input{
+    border-color: rgb(22, 103, 224);
+    border-style: solid;
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+left: 15%;
+width: 40%;
+height: 40px;
+
+}
+*/
+.scanner iframe{
+   border: 0;
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    width: 540px;
+    height: 250px;
+    overflow: hidden;
+    
+    
+}
